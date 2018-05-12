@@ -136,19 +136,19 @@ var hampton = new Castle('Hampton Court', 'England', 'red', 'bricks', false);
 // var q1CastleContext = "explicit"
 // var q1CastleContext = "implicit"
 // var q1CastleContext = "default"
-// var q1CastleContext = 'new';
+var q1CastleContext = 'new';
 
 
 // Q2:
 // Run the getCastle method on chambord, and
 // save the result to a variable ran chambordInfo.
 
-// CODE HERE
+const chambordInfo = chambord.getCastle()
 
 
 // What was 'this' when you ran chambord.getCastle()?
 
 // var getCastleContext = "Castle"
-// var getCastleContext = 'chambord';
+var getCastleContext = 'chambord';
 // var getCastleContext = "new"
 // var getCastleContext = "window"
