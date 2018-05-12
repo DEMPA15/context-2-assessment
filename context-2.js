@@ -98,15 +98,16 @@ function updatePerson(name, age, title) {
 // pass in the values "Anne Boleyn", 30, and "Queen of
 // England"; save the result to a variable named queenAnne.
 
-//Code here
+const queenAnne = updatePerson.call(person1, "Anne Boleyn", 30, "Queen of England")
+
 
 
 // Q2:
 // Use the method .apply to run updatePerson on person2;
 // pass in the values "Catherine of Aragon", 37, and "Former
-// Queen"; save the result to a variable named queenAnne.
+// Queen"; save the result to a variable named queenCatherine.
 
-//Code here
+const queenCatherine = updatePerson.apply(person2, ["Catherine of Aragon", 37, "Former Queen"])
 
 
 // /////////////////Problem 3//////////////////
